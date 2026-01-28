@@ -1,0 +1,7 @@
+function login() {
+  const loadingDiv = document.getElementById("loading");
+  loadingDiv.style.display = "block";
+
+  // Simular un retraso de 2 segundos
+  setTimeout(() => {
+    loadingDiv.style.display = "none";
